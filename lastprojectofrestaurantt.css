@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contentbox{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(188, 186, 183);
+}
+a{
+    text-decoration: none;
+}
+.headerbox{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(60, 128, 104);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1190px){
+    .headerbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7rem;
+        height: fit-content;
+        margin: auto;
+    }
+}
+@media (max-width:1190px){
+#box22{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto; 
+    justify-content: center;
+    align-items: center;
+}
+}
+.box1 h1{
+    color: white;
+    font-size: 3rem;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 30%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.box2 a{
+    font-size: 2.2rem;
+    color: white;
+}
+.foodbox{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    gap: 15px;
+}
+.rightbox img{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+#img1{
+    transition: all 0.3s ease-in 0s;
+}
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+@media(max-width: 1190px){
+    .foodbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.footerbox{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(60, 128, 104);
+}
+.footerbox p{
+    font-size: 2.2rem;
+    color: white;
+}
